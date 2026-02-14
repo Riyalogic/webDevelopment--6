@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr bgcolor="pink">
+            <td>Riya</td>
+            <td>20</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>Mahi</td>
+            <td>21</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <hr>
+        <table border="1" cellspacing="0">
+            <tr>
+                <th>ID</th>
+                <th>customer name</th>
+                <th>product name</th>
+                <th>qty</th>
+                <th>price</th>
+                <th>total price</th>
+            </tr>
+            <tr>
+                <td rowspan="4">1</td>
+                <td rowspan="4">Ram</td>
+                <td>Realme c1</td>
+                <td>2</td>
+                <td>6000</td>
+                <td rowspan="4">17550</td>
+            </tr>
+            <tr>
+                <td>Ram DDR3 8GB</td>
+                <td>2</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Ram DDR3 8GB</td>
+                <td>2</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td colspan="5">Total Amount:</td>
+                <td>286000</td>
+            </tr>
+        </table>
+    </table>
+</body>
+</html>
