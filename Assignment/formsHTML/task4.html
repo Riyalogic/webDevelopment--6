@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <fieldset>
+        <table border="1">
+            <center><h2>Registration Form</h2></center>
+            <tr>
+                <td width="300"><label>Student Name</label></td>
+                <td width="200"><input type="text" placeholder="First Name"></td>
+                <td width="200"><input type="text" placeholder="Middle Name"></td>
+                <td width="200"><input type="text" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td width="300"><label>Father's Name</label></td>
+                <td width="200"><input type="text" placeholder="Enter your father's Name"></td>
+                <td width="300"><label>Mother's Name</label></td>
+                <td width="200"><input type="text" placeholder="Enter your Mother's Name"></td>
+            </tr>
+            <tr>
+                <td width="300"><label>Date of Birth</label></td>
+                <td width="200"><input type="date"></td>
+                <td><label>Gender</label></td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td> 
+            </tr>
+            <tr>
+                <td><label>Category</label></td>
+                <td>
+                    <input type="radio" name="category">Gen
+                    <input type="radio" name="category">OBC
+                    <input type="radio" name="category">SC/ST
+                </td> 
+                <td><label>Handicapped</label></td>
+                <td>
+                    <input type="radio" name="hand">Yes
+                    <input type="radio" name="hand">No
+                </td>
+            </tr>
+            <tr>
+                <td><label>Ex-Serviceman</label></td>
+                <td>
+                    <input type="radio" name="service">Yes
+                    <input type="radio" name="service">No
+                </td>
+                <td><label>EWS</label></td>
+                <td>
+                     <input type="radio" name="ews">Yes
+                    <input type="radio" name="ews">No
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email ID</label></td>
+                <td><input type="email"></td>
+                <td><label>Mobile No.</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label>State</label></td>
+                <td>
+                    <select  name="state" id="state" >
+                        <option value="">Select any one</option>
+                        <option value="mp">Madhya Pradesh</option>
+                        <option value="up">uttar Pradesh</option>
+                    </select>
+                </td>
+                <td><label>City</label></td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="">select any one</option>
+                         <option value="bpl">Bhopal</option>
+                         <option value="idr">indore</option>
+                          <option value="ujj">Ujjain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Upload Photo</label></td>
+                <td><input type="file"></td>
+                 <td><label>Upload Signature</label></td>
+                <td><input type="file"></td>
+            </tr>    
+               <center><td><button>Submit</button></td></center>
+        </table>
+   </fieldset>
+</body>
+</html>

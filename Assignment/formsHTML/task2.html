@@ -6,6 +6,7 @@
     <title>Task 2</title>
 </head>
 <body>
+    <fieldset>
     <h2>Pizza Order Form</h2>
     <p>First Name: <input type="text"></p>
     <p>Last Name: <input type="text"></p>
@@ -13,29 +14,40 @@
     <p>Contact Number: <input type="number"></p>
     <p>Preferred Delivery Date: <input type="date"></p>
     <p>Size:</p>
-    <input type="radio" name="Size" value="Small">
-    <span>Small</span>
-    <input type="radio" name="Size" value="Medium">
-    <span>Medium</span>
-    <input type="radio" name="Size" value="Large">
-    <span>Large</span>
-    <p>Flavor:</p>
-    <p><input type="checkbox" >
-    <span>Hawaiian(Php 150.00)</span>
-    <select name="Hawaiian" id="Hawaiian"></select>
-    <option value="1">1</option>
-    </p>
-    <p><input type="checkbox">
-    <span>Pepperoni(Php 140.00)</span>
-    <select name="" id=""></select>
-    </p>
-    <p><input type="checkbox">
-    <span>Vegetable(Php 130.00)</span>
-    <select name="" id=""></select>
-    </p>
+    <input type="radio" name="size" id="small">
+    <label for="small">Small</label>
+    <input type="radio" name="size" id="medium">
+    <label for="medium">Medium</label>
+    <input type="radio" name="size" value="large">
+    <label for="large">Large</label>
+    <p>flavor:</p>
+    <input type="checkbox" id="hawalian">
+    <label for="hawalian">Hawalian (Php 150.00)</label>
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    <br />
+    <input type="checkbox" id="pepperoni">
+    <label for="pepperoni">Pepperoni (Php 140.00)</label>
+     <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    <br />
+    <input type="checkbox" id="vegtable">
+    <label for="vegtable">Vegtable (Php 130.00)</label>
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
     <p>Credit Card Number: <input type="text"></p>
     <p>PIN: <input type="number"></p>
     <p>Additional Note: <textarea name="note" id="note"></textarea></p>
     <button>Submit Order</button>
+    </fieldset>
 </body>
 </html>

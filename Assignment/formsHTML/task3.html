@@ -3,21 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task 3</title>
 </head>
 <body>
-    <h1>Registration Form</h1>
-    <p>Name: <input type="text"></p>
-    <p>Address: <input type="text"></p>
-    <p>City: <input type="text"></p>
-    <p>Zip Code: <input type="text"></p>
-    <p>Country: <input type="text"></p>
-    <p>Phone: (H) <input type="text"></p>
-    <p>Phone: (W) <input type="text"></p>
-    <p>Email: <input type="text"></p>
-    <p>Company Name: <input type="text"></p>
-    <p>Desired Region <input type="checkbox"></p>
-     <p>Other: <input type="text"></p>
+   <fieldset>
+    <h2>Registration Form</h2>
+    <label for="name"><b>Name:</b></label>
+    <input type="text" name="name" id="name">
+     <br />
+    <label for="address"><b>Address:</b></label>
+    <input type="text" name="address" id="address">
+     <br />
+     <label for="city"><b>City:</b></label>
+     <input type="text" name="city" id="address">
+     <label for="state/province"><b>State/Province:</b></label>
+     <input type="text" name="state/province" id="state/province">
+     <br />
+     <label for="zip code"><b>Zip Code:</b></label>
+     <input type="number" name="zip code" id="zip code">
+     <br />
+     <label for="country"><b>Country:</b></label>
+     <input type="number" name="country" id="country">
+     <br />
+     <label for="phoneh"><b>Phone:(H)</b></label>
+     <input type="number" name="phoneh" id="phoneh">
+     <label for="fax"><b>Fax:</b></label>
+     <input type="text" name="fax" id="fax">
+     <br />
+     <label for="phonew"><b>Phone:(W)</b></label>
+     <input type="number" name="phonew" id="phonew">
+     <br />
+     <label for="email"><b>Email:</b></label>
+     <input type="text" name="email" id="email">
+     <br />
+     <label for="Company"><b>Company Name:</b></label>
+     <input type="text" name="Company" id="Company">
+     <br />
+     <label for="region"><b>Desired Region:</b></label>
+     <select name="region" id="region">
+        <option>Select</option>
+        <option>Chennai</option>
+        <option>Mumbai</option>
+        <option>Other</option>
+     </select>
+     <label for="other"><b>Other:</b></label>
+     <input type="text">
+     <br />
+     <label><b>Professional designations earned:</b></label><br>
+     <input type="checkbox" id="college">
+     <label for="college">College Student</label>
+     <input type="checkbox" id="actuarial">
+     <label for="actuarial">Actuarial Student</label>
+     <input type="checkbox" id="acas">
+     <label for="acas">ACAS</label>
+     <input type="checkbox" id="fcas">
+     <label for="fcas">FCAS</label>
+     <input type="checkbox" id="asa">
+     <label for="asa">ASA</label>
+     <br />
+     <input type="checkbox" id="fsa">
+     <label for="fsa">FSA</label>
+     <input type="checkbox" id="ea">
+     <label for="ea">EA</label>
+    <input type="checkbox" id="cfa">
+     <label for="cfa">CFA</label>
+    <input type="checkbox" id="mba">
+    <label for="mba">MBA</label>
+     <input type="checkbox" id="maaa">
+     <label for="maaa">MAAA</label>
+     <input type="checkbox" id="fia">
+     <label for="fia">FIA</label>
+     <input type="checkbox" id="fcia">
+     <label for="fcia">FCIA</label>
+     <br />
+     <input type="checkbox" id="fiaa">
+     <label for="fiaa">FIAA</label>
+     <input type="checkbox" id="financial">
+     <label for="financial">Financial Engineer</label>
+     <input type="checkbox" id="ms">
+     <label for="ms">M.S.</label>
+     <input type="checkbox" id="phd">
+     <label for="phd">Ph.D.</label>
+     <input type="checkbox" id="data">
+     <label for="data">Data Mining</label>
+     <input type="checkbox" id="quant">
+     <label for="quant">Quant</label>
+     <br />
+     <label for="designations"><b>Other Designation:</b></label>
+     <input type="text" name="designations" id="designations">
+   </fieldset>
 
 </body>
 </html>
