@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(231, 18, 210); 
+}
+div{
+    background-color: aqua;  
+}
+.abc{
+    background-color: burlywood;
+    color: red;
+    border:1px solid black;
+    border: 5px dashed blue;
+    border-radius: 5px;
+}
+.abc{
+    background-color: blueviolet;
+}
+h1{
+    background-color: blue;
+}
+#head1{
+    background-color: red;
+}
