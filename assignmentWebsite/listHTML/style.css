@@ -1,0 +1,20 @@
+*{
+    background-color: rgb(249, 134, 237); ;
+}
+table{
+    background-color: aqua;
+    border: 3px dashed black;
+    border-radius: 5px;
+}
+th{
+    background-color: burlywood;
+}
+td{
+    background-color: beige;
+}
+div{
+    background-color: blue;
+}
+.abc{
+    border-color: antiquewhite;
+}
