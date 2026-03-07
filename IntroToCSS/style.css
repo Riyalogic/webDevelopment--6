@@ -3,6 +3,9 @@
 }
 div{
     background-color: aqua;  
+    width: 500px;
+    height:600px ;
+
 }
 .abc{
     background-color: burlywood;
@@ -19,4 +22,11 @@ h1{
 }
 #head1{
     background-color: red;
+}
+#submitbutton{
+    padding: 5px 5px;
+    border: 3px solid black;
+    border-radius: 3px;
+    background-color: green;
+    color: beige;
 }

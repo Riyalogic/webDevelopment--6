@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(118, 245, 118);
+}
+.contain{
+    background-color: white;
+    width: 350;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px 550px; 
+}
+h1{
+    margin-top: 20px;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid grey;
+}
+textarea{
+    height: 80px;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background-color:  rgb(118, 245, 118);
+    color: white;
+    border-radius: 20px;
+}
