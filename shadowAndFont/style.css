@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
+
+
+#shadowsample{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 5px rgb(95, 59, 59);
+    box-shadow: -10px -10px 5px 5px blueviolet;
+}
+#textsample{
+    text-shadow: 0.5px 0.5px 1px red;
+}
+#submit{
+    border: 1px solid blue;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-start-start-radius: 15px;
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+    box-shadow: 2px 2px 2px 0 gray;
+}
+#somedata{
+    border: 1px solid black;
+    width: 700px;
+    margin: auto;
+}
+#somedata h1{
+    color: red;
+}
+#somedata h3{
+    color: aqua;
+}
+#somedata div img{
+    width: 100px;
+}
+#somedata{
+    background-color: bisque;
+    img{
+        border-radius: 10px;
+    }
+    h1{
+        text-shadow: 1px 1px 0px yellowgreen;
+    }
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    font-family:Bitcount+Prop+Double ;
+}
