@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+#head{
+    padding: 10px;
+    background-color: gold;
+    position: sticky;
+    top: 10px;
+    z-index: 99;
+}
+#helpButton{
+    width: 35px;
+    height: 35px;
+    padding: 30px;
+    /* align-items: center;
+    text-align: center; */
+    background-color: blanchedalmond;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    button{
+        background-color: transparent;
+        border: none;
+    }
+}
+ /* #button{
+     bottom: 20px;
+    right: 20px;
+    position: fixed; 
+    background-color: transparent;
+} */
+#something{
+    border: 1px solid black;
+    background-color: aqua;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+#ricrImg{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+#visitButton{
+    position: absolute;
+    right: 0;
+
+}
