@@ -1,10 +1,10 @@
  *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 body{
-    background-color: #cfd6dd;
+    background-color: #a5cef7;
 }
 .container{
     max-width: 1000px;
@@ -14,7 +14,7 @@ body{
 }
   .left{
     width: 32%;
-    background-color: #2f3e4e;
+    background-color: #023c7a;
     color: #fff;
     padding: 25px;
     /* display: flex;
@@ -34,7 +34,7 @@ body{
     /* margin-bottom: 20px; */
 }
 .profile h2{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
 }
 .profile p{
@@ -52,11 +52,11 @@ body{
     border-bottom: 1px solid #aaa;
     padding-bottom: 5px;
 }
-.section ul li{
+/* .section ul li{
     font-size: 12px;
     margin: 6px 0;
     color: #ddd;
-}
+} */
 .section p{
     font-size: 12px;
     margin: 5px 0;
@@ -112,7 +112,7 @@ margin-bottom: 30px;
 .right-col p{
     font-size: 12px;
 }
-/* .right.section{
+ .right.section{
     margin-bottom: 30px;
 }
 
@@ -130,4 +130,7 @@ margin-bottom: 30px;
 }
 .box div{
     width: 45%;
-}     */
+}     
+/* svg{
+    color: blueviolet;
+} */
