@@ -9,7 +9,7 @@
     grid-template-columns: 150px 200px 150px 200px;
     justify-items: center;
     align-items: center;
-    row-gap: 40px;
+    row-gap: 40px; 
 }
 .p1child{
     width: 50px;

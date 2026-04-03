@@ -1,7 +1,7 @@
 :root{
---primary-color: darkorange;
---secondary-color: skyblue;
---text-color: green;
+--primary-color: rgb(223, 14, 246);
+--secondary-color: rgb(85, 139, 209);
+--text-color: rgb(142, 80, 4);
 }
 h1{
     color: var(--primary-color);
@@ -10,7 +10,7 @@ h3{
     color: var(--secondary-color);
 }
 p{
-    --br-radius: 5px;
+    /* --br-radius: 5px; */
     color: var(--text-color);
 }
 th{
@@ -22,13 +22,22 @@ td{
 button{
     border: 1px solid black;
     border-radius: 5px;
-    padding: 8px 15px;
+    padding: 8px 15px; 
 }
 #login{
     background-color: var(--primary-color);
     border-radius: 5px;
+    box-shadow: 5px 5px 2px 2px var(--primary-color);
 }
 #register{
     background-color: var(--primary-color);
     border-radius: 5px;
+     box-shadow: 5px 5px 2px 2px var(--primary-color);
 }
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+}
+

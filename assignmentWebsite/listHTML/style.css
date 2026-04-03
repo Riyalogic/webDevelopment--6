@@ -1,4 +1,4 @@
-*{
+/* *{
     background-color: rgb(249, 134, 237); ;
 }
 table{
@@ -17,4 +17,24 @@ div{
 }
 .abc{
     border-color: antiquewhite;
+} */
+:root{
+    --primary-color: beige;
+    --secondary-colo: burlywood;
+    --text-color: rgb(96, 6, 6) ;
 }
+*{
+    background-color: var(--primary-color);
+}
+table{
+    width: 1000px;
+    height: 150px;
+    background-color: var(--primary-color);
+    border: 3px double var(--text-color);
+    border-radius: 5px;
+}
+th{
+    background-color: var(--secondary-colo);
+}
+td{
+    background-color: var(--primary-color);
