@@ -1,0 +1,122 @@
+:root{
+    --brand: #b84a1a;
+    --brand-dark: #9a3c12;
+}
+.navbar{
+    background-color: var(--brand) !important;
+}
+.btn-register{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.btn-register:hover{
+    background: #fff;
+    color: var(--brand);
+}
+.btn-brand{
+    background-color: var(--brand);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+}
+.btn-brand:hover{
+    background-color: var(--brand-dark);
+    color: #fff;
+}
+.search-wrapper{
+    background-color: #f0ece8;
+    padding: 20px 40px;
+}
+.search-inner{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.listing-wrapper{
+    padding: 30px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.cards-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+.restaurant-card{
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0,08);
+    overflow: hidden;
+}
+.card-img-wrap{
+    position: relative;
+}
+.card-img-wrap img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.rating-badge{
+    background-color: var(--brand);
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.card-content{
+    padding: 16px;
+}
+.tags{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.tag-pill{
+    font-size: 0.78rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 2px 12px;
+    color: #555;
+}
+.footer-dark{
+    background-color: #2b2b2b;
+    color: #ccc;
+}
+.footer-inner{
+    max-width: 1400px;
+    margin-top: 0 auto;
+    padding: 0 40px;
+}
+.footer-cols{
+    display: grid;
+    grid-template-columns: 200px 160px 200px 160px 200px;
+    gap: 20px;
+}
+.footer-logo-circle{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo-text{
+    font-weight: bold;
+    color: var(--brand);
+    font-size: 1rem;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #888;
+    padding-top: 10px;
+}
