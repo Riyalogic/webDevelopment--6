@@ -1,29 +1,30 @@
 :root{
     --brand: #b84a1a;
     --brand-dark: #9a3c12;
+    --text-content: #fff;
 }
 .navbar{
     background-color: var(--brand) !important;
 }
 .btn-register{
     background: transparent;
-    color: #fff;
+    color: var(--text-content);
     border: 1px solid #fff;
 }
 .btn-register:hover{
-    background: #fff;
+    background: var(--text-content);
     color: var(--brand);
 }
 .btn-brand{
     background-color: var(--brand);
-    color: #fff;
+    color: var(--text-content);
     border: none;
     border-radius: 6px;
     padding: 10px 0;
 }
 .btn-brand:hover{
     background-color: var(--brand-dark);
-    color: #fff;
+    color: var(--text-content);
 }
 .search-wrapper{
     background-color: #f0ece8;
@@ -44,7 +45,7 @@
     gap: 24px;
 }
 .restaurant-card{
-    background: #fff;
+    background: var(--text-content);
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0,08);
     overflow: hidden;
@@ -60,7 +61,7 @@
 }
 .rating-badge{
     background-color: var(--brand);
-    color: #fff;
+    color: var(--text-content);
     font-size: 0.8rem;
     padding: 4px 10px;
     border-radius: 20px;
@@ -101,7 +102,7 @@
 .footer-logo-circle{
     width: 80px;
     height: 80px;
-    background: #fff;
+    background: var(--text-content);
     border-radius: 50%;
     display: flex;
     align-items: center;
