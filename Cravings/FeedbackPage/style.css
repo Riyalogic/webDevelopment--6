@@ -7,37 +7,30 @@ body{
 }
 header{
     background-color: #c23b0e;
+    position: fixed;
 }
-header a{
-    color: white;
+.feedback-bg{
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1528605248644-14dd04022da1') no-repeat center center/cover;
 }
-
-.login-bg{
-    min-height: 90vh;
-    background: url('https://images.unsplash.com/photo-1490645935967-10de6ba17061') no-repeat center center/cover;
+.feedback-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
-.login-card{
-    max-width: 400px;
+.feedback-card{
+    max-width: 520px;
     border-radius: 12px;
+    background: rgba(255, 255, 255, 0.95);
 }
-.btn-login{
+.btn-main{
     background-color: #c23b0e;
     color: white;
 }
-.btn-login:hover{
+.btn-main:hover{
     background-color: #a8320c;
 }
-/* .footer{
-    background-color: #f8f9fa;
-}
-.footer a{
-    text-decoration: none;
-    color: black;
-}
-.footer a:hover{
-    color: #c23b0e;
-} */
- .footer-dark{
+.footer-dark{
     background-color: #2b2b2b;
     color: #ccc;
 }

@@ -8,36 +8,22 @@ body{
 header{
     background-color: #c23b0e;
 }
-header a{
-    color: white;
-}
-
-.login-bg{
-    min-height: 90vh;
+.contact-bg{
+    min-height: 100vh;
     background: url('https://images.unsplash.com/photo-1490645935967-10de6ba17061') no-repeat center center/cover;
 }
-.login-card{
+.contact-card{
     max-width: 400px;
     border-radius: 12px;
 }
-.btn-login{
+.btn-main{
     background-color: #c23b0e;
     color: white;
 }
-.btn-login:hover{
+.btn-main:hover{
     background-color: #a8320c;
 }
-/* .footer{
-    background-color: #f8f9fa;
-}
-.footer a{
-    text-decoration: none;
-    color: black;
-}
-.footer a:hover{
-    color: #c23b0e;
-} */
- .footer-dark{
+.footer-dark{
     background-color: #2b2b2b;
     color: #ccc;
 }

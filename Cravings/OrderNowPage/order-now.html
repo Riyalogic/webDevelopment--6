@@ -11,12 +11,140 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-
-
-
+    <header
+      class="py-3 px-4 d-flex justify-content-between align-items-center position-sticky top-0" style="z-index: 1000">
+    <div class="text-white fw-bold fs-4">
+      <span>crav<span class="text-warning"></span>ing</span>
+    </div>
+     <div >
+        <a href="../LoginPage/login.html" class="btn text-white me-3 text-decoration-none">Login</a>
+        <a href="../RegisterPage/register.html" class="btn btn-light btn-sm btn-close-white">Register</a>
+       </div>
+    </header>
+    <!-- search bar -->
+    <div class="search-wrapper">
+      <div class="search-inner">
+        <div class="input-group">
+          <span class="input-group-text bg-white border-end-0">
+            <i class="bi bi-search text-muted"></i>
+          </span>
+          <input type="text" class="form-control border-start-0 py-2" placeholder="Search restarants or cuisines...">
+        </div>
+      </div>
+    </div>
+        <div class="listing-wrapper">
+          <h5 class="fw-bold mb-1">All Restaurants</h5>
+          <p class="text-muted small mb-4">3 restarants available</p>
+          <div class="cards-row">
+            <!-- card 1 -->
+            <div class="restaurant-card">
+              <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80" alt="Under The Mango Tree"/>
+                <span class="rating-badge"><i class="bi bi-star-fill me-1"></i>3.6</span>
+              </div>
+              <div class="card-content">
+                <h6 class="fw-bold mb-2">Under The Mango Tree</h6>
+                <p class="text-muted small">Enjoy the thrill of grill and barbecue at Under The Mango Tree restaurant at Jehan Numa Palace, Bhopal. Head here now!</p>
+              <div class="tags">
+                <span class="tag-pill">Indian</span>
+                <span class="tag-pill">Chineese</span>
+                <span class="tag-pill">Ittalian</span>
+              </div>
+              <button class="btn btn-brand w-100 fw-semibold mt-3">View Menu</button>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="restaurant-card">
+              <div class="card-img-wrap">
+                 <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80" alt="Raj Darbar"/>
+                <span class="rating-badge"><i class="bi bi-star-fill me-1"></i>4.8</span>
+                </div>
+                <div class="card-content">
+                <h6 class="fw-bold mb-2">Raj Darbar</h6>
+                <p class="text-muted small">Raj Darbar is a one-of-a-kind Indian restaurant that offers a unique dining experience for families and friends with a dhaba-style theme.</p>
+                  <div class="tags">
+                <span class="tag-pill">Indian</span>
+                <span class="tag-pill">Chineese</span>
+                <span class="tag-pill">Ittalian</span>
+              </div>
+               <button class="btn btn-brand w-100 fw-semibold mt-3">View Menu</button>
+              </div>
+          </div>
+          <!-- card 3 -->
+            <div class="restaurant-card">
+              <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Countryside Culture"/>
+                <span class="rating-badge"><i class="bi bi-star-fill me-1"></i>4.1</span>
+              </div>
+              <div class="card-content">
+                <h6 class="fw-bold mb-2">Countryside Culture</h6>
+                <p class="text-muted small">A hidden gem away from the city, offering lush green meadows and peaceful walking paths for relaxation.</p>
+              <div>
+                <div class="tags">
+                <span class="tag-pill">Indian</span>
+                <span class="tag-pill">Chineese</span>
+              </div>
+              <button class="btn btn-brand w-100 fw-semibold mt-3">View Menu</button>
+              </div>
+              </div>
+              </div>
+              </div>
+            </div>
+            <!-- footer -->
+             <footer class="footer-dark pt-5 pb-3">
+              <div class="footer-inner">
+                <p class="text-center text-secondary small mb-4">--- Your favorite food delivery platform connecting customers with restaurants and riders. ---</p>        
+              <div class="footer-cols">
+                <div class="footer-logo-cols">
+                  <div class="footer-logo-circle">
+                    <span class="footer-logo-text">crav<span class="text-success">i</span>ng</span>
+                  </div>
+                </div>
+                <div>
+                  <h6 class="text-white fw-semibold mb-3">Quick Links</h6>
+                  <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="../HomePage/index.html" class="text-secondary text-decoration-none">Home</a></li>
+                    <li class="mb-2"><a href="../AboutPage/about.html" class="text-secondary text-decoration-none">About</a></li>
+                    <li class="mb-2"><a href="../OrderNowPage/" class="text-secondary text-decoration-none">Order Now</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h6 class="text-white fw-semibold mb-3">For Restaurants</h6>
+                   <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Partner With Us</a></li>
+                    <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Restaurant Dashboard</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h6 class="text-white fw-semibold mb-3">For Riders</h6>
+                   <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Become a Rider </a></li>
+                    <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Rider Dashboard</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h6 class="text-white fw-semibold mb-3">Feedback & Support</h6>
+                   <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="../FeedbackPage/feedback.html" class="text-secondary text-decoration-none">Submit Feedback</a></li>
+                    <li class="mb-2"><a href="../HelpCenterPage/help-center.html" class="text-secondary text-decoration-none">Help Center</a></li>
+                    <li class="mb-2"><a href="../ContactPage/contact.html" class="text-secondary text-decoration-none">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <hr class="border-secondary mt-4"/>
+              <div class="footer-bottom">
+                <span>& copy; 2026 Cravings. All rights reserved.</span>
+                <div>
+                  <a href="../PrivacyPolicyPage/privacy-policy.html" class="text-secondary text-decoration-none me-3">Privacy Policy</a>
+                  <a href="../TermsofService/terms-of-service.html" class="text-secondary text-decoration-none me-3">Terms of Service</a>
+                  <a href="../SiteMapPage/sitemap.html" class="text-secondary text-decoration-none me-3">Site Map</a>
+                </div>
+              </div>
+            </div>
+             </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
