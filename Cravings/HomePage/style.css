@@ -8,11 +8,27 @@ body{
 }
 header{
     background-color: #c23b0e;
+    z-index: 1000;
+}
+.her0-section{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1920');
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;         
+}
+.btn-sign{
+    background-color: #c23b0e;
+    color: white;
+}
+.btn-sign:hover{
+    background-color: #a5320c;
 }
 .btn-register{
     background: transparent;
     color: var(--text-content);
-    border: 1px solid #fff;
+    border: 1px solid var(--text-content);
 }
 .btn-register:hover{
     background: var(--text-content);
@@ -32,6 +48,9 @@ header{
 .search-wrapper{
     background-color: #f0ece8;
     padding: 20px 40px;
+    /* max-width: 700px;
+    border-radius: 10px;
+    overflow: hidden; */
 }
 .search-inner{
     max-width: 1400px;
@@ -87,6 +106,41 @@ header{
     border-radius: 20px;
     padding: 2px 12px;
     color: #555;
+}
+.start-card{
+    background: var(--text-content);
+    border: none;
+    border-radius: 10px;
+    padding: 2rem;
+    transition: transforn 0.2s;
+}
+.start-card:hover{
+    transform: translate(-5px);
+}
+.start-number{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.text-orange{color: var(--brand)}
+.text-pink{color: #e24086;}
+.text-darkorange{color: var(--brand-dark);}
+
+.review-card{
+    background: rgb(249, 249, 228);
+    border: none;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.btn-partner{
+    background: transparent;
+    color: var(--text-content);
+    border: 1px solid var(--text-content);
+}
+.partner-section{
+    /* height: 100vh; */
+    background: var(--brand);
+    width: 200vh;
+    /* padding-top: 80px;          */
 }
 .footer-dark{
     background-color: #2b2b2b;
