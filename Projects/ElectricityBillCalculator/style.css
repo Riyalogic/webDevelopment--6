@@ -1,0 +1,16 @@
+body{
+    background: #f4f7fb;
+}
+.card{
+    border-radius: 12px;
+}
+.btn{
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.03);
+}
+.result{
+    display: none;
+    background: #eef6ff;
+}
