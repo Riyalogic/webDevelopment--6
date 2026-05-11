@@ -1,0 +1,12 @@
+body{
+    background-image: url(CalculatorBGImage.png);
+}
+.upperbox{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.lowerbox{
+    background-color: pink;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

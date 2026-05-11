@@ -1,16 +1,35 @@
-document.querySelector("form").addEventListener("submit",(event)=>{
-    event.preventDefault();
+// document.querySelector("form").addEventListener("submit", (event) => {
+//     event.preventDefault();
 
-    const dob = document.getElementById("DOB").value;
-    const curDate = document.getElementById("CurrentDate").value;
+//     const dob = document.getElementById("DOB").value;
+//     const curDate = document.getElementById("CurrentDate").value;
 
-    //  let curYear = umber(curDate.split("-")[0]);
-    // let dobYear = Number(dob.split("-")[0]);
-    // const Age = curYear - dobYear;
+//     //  let curYear = umber(curDate.split("-")[0]);
+//     // let dobYear = Number(dob.split("-")[0]);
+//     // const Age = curYear - dobYear;
        
-    const Age = Number(curDate.split("-")[0] - Number(dob.split("-")[0]));
-    document.getElementById("DOB").value = "";
-    document.getElementById("CurrentDate").value = "";
-    document.getElementById("MYAge").innerText = Age;
-    
+//     const Age = Number(curDate.split("-")[0] - Number(dob.split("-")[0]));
+
+//     document.getElementById("DOB").value = "";
+//     document.getElementById("CurrentDate").value = "";
+
+//     document.getElementById("MYAge").innerText = Age;
+// });
+
+document.querySelector("form").addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const dob = document.getElementById("DOB").value;
+  const curDate = document.getElementById("CurrentDate").value;
+
+  //   let curYear = Number(curDate.split("-")[0]);
+  //   let dobYear = Number(dob.split("-")[0]);
+  //   const Age = curYear - dobYear;
+
+  const Age = Number(curDate.split("-")[0]) - Number(dob.split("-")[0]);
+
+  document.getElementById("DOB").value = "";
+  document.getElementById("CurrentDate").value = "";
+
+  document.getElementById("MyAge").innerText = Age;
 });
