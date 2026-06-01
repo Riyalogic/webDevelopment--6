@@ -1,12 +1,33 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About"
+import ContactUs from "./pages/ContactUs";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Product from "./pages/Product";
 import React from "react";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <Header />
-      <div id="abcd">My First React App</div>
+      <BrowserRouter>
+       <Header />
+
+       <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/about" element={<About />}/>
+        <Route path="/product" element={<Product />}/>
+        <Route path="/contactus" element={<ContactUs />}/>
+        <Route path="/login" element={<Login />}/>
+        <Route path="/register" element={<Register />}/>
+        
+       </Routes>
+      </BrowserRouter>
+   
+      {/* <div id="abcd">My First React App</div>
 
       <p className="bg-primary">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro at beatae
@@ -16,7 +37,7 @@ function App() {
       </p>
 
     <button>Click Here</button>
-    <Footer />
+    <Footer /> */}
     </>
   );
 }

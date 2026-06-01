@@ -6,7 +6,12 @@
   background-color: beige;
   color: black;
 }
+
 #footer{
   background-color: rgb(101, 14, 14);
   color: white;
+}
+
+.container{
+  width: 500px;
 }
