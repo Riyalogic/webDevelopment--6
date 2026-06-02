@@ -12,12 +12,8 @@ function Header() {
           <Link to={"/about"}>About</Link>
           <Link to={"/product"}>Product</Link>
           <Link to={"/contact-us"}>Contact Us</Link>
-
-          <span>Home</span>
-          <span>About</span>
-          <span>Products</span>
-          <span>Contact Us</span>
         </div>
+
         <div className="d-flex gap-3">
           <Link to={"/login"}>
             <button className="btn btn-outline-primary">Login</button>
