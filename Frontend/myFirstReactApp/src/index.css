@@ -12,14 +12,14 @@
   color: white;
 } */
 
-a{
+a {
   text-decoration: none !important;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline !important;
 }
 
-.container{
+.container {
   height: 500px;
 }
