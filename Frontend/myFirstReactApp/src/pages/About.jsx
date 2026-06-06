@@ -1,5 +1,4 @@
 import { FaWifi } from "react-icons/fa";
-import roseImage from"./assets/src/pages/rose.jpg"
 function About() {
   return (
     <>
