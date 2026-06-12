@@ -6,8 +6,9 @@ const Header = () => {
   return (
     <>
       <div className="bg-blue-500 flex justify-between p-3">
-        <div>
+        <div className=" flex gap-3 items-center">
           <FaStore className="text-2xl text-white" />
+          <span className="text-white text-xl">Fake Store</span>
         </div>
         <div className="flex gap-4">
           <Link to={"/"} className="text-white hover:underline">
