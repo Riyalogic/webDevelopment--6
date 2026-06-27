@@ -1,4 +1,5 @@
 import User from "../models/user.model.js";
+import bcrypt from "bcrypt";
 
 export const RegisterUser = async (req, res, next) => {
   // res.json({ message: "Register successfull from controller" });
@@ -27,10 +28,13 @@ export const RegisterUser = async (req, res, next) => {
       publicId: null,
     };
 
+    const SALT = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(password, SALT);
+
     const newUser = await User.create({
       fullName,
       email,
-      password,
+      password: hashedPassword,
       phone,
       gender,
       dob,
@@ -56,8 +60,6 @@ export const LoginUser = async (req, res, next) => {
       error.statusCode = 400;
       return next(error);
     }
-    console.log(0);
-    
     
      const existingUser = await User.findOne({ email });
     if (!existingUser) {
@@ -66,16 +68,13 @@ export const LoginUser = async (req, res, next) => {
       error.statusCode = 404;
       return next(error);
     }
-    console.log(1);
-    
   
-    if(password !== existingUser.password){
+    const isVerified = await bcrypt.compare(password,existingUser.password)
+    if(!isVerified){
       const error = new Error("Incorrect Password");
       error.statusCode = 401;
       return next(error);
     }
-    console.log(2);
-    
     
     res.status(200).json({
       message: "Welcome Back",
@@ -89,5 +88,6 @@ export const LoginUser = async (req, res, next) => {
 };
 
 export const LogoutUser = (req, res) => {
-  res.json({ message: "Logout successfull from controller" });
+  // res.json({ message: "Logout successfull from controller" });
+
 };
